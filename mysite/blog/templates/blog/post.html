@@ -2,9 +2,9 @@
 
 {%block content%}
 
-<h2>{{p.title}}</h2>
-<h5>on {{p.date}}</h5>
-{{p.body|safe|linebreaks}}
+<h2>{{object.title}}</h2>
+<h5>on {{object.date}}</h5>
+{{object.body|safe|linebreaks}}
 
 
 {%endblock%}
